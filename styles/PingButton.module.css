@@ -1,0 +1,26 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: middle;
+    align-items: center;
+}
+
+.button {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f30505;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 200%;
+  }
+
+  .button:hover{
+    background-color: #47ee19;
+    width: 300%;
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+    color: white;
+  }

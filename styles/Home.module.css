@@ -1,0 +1,110 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+
+  background-image: url('/hero-bg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+.AppHeader {
+  height: 90px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 50px;
+  color: rgb(214, 15, 15);
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+.AppBody {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  background: #099ee9;
+}
+
+.formField {
+  margin: 10px 0 10px 0;
+  min-width: 500px;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+.formButton {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.sendTokenContainer {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.sendTokenContainer h3 {
+  margin-bottom: 10px;
+}
+
+.sendTokenContainer input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sendTokenContainer button {
+  background-color: #512da8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.sendTokenContainer button:hover {
+  background-color: #673ab7;
+  width: 150px;
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+  color: red;
+}
